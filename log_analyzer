@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+import subprocess
+import q1
+
+if __name__ == '__main__':
+  import argparse
+  ap = argparse.ArgumentParser()
+  ap.add_argument('-q', nargs=3)
+  ap.add_argument
+  args = ap.parse_args()
+  if args.q[1] == 1:
+    print args.q[2]
+    subprocess.call("python q1.py {0} {1]".format(args.q[2], args.q[3]))
